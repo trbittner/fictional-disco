@@ -34,7 +34,12 @@ def create_radio_btn_group(src_list_name,is_text=True):
 def get_params(self,msg):
     tags = self.input.value.split(' ')[:5]
     story_params['tags'] = tags
-    print(story_params)
+    query = "Write a short story in {} level {} using the following keywords as "\
+    "prompts: {}.".format(story_params['levels'],story_params['languages'],
+    ', '.join(story_params['tags'])) + " Provide an English translation as well."\
+    " Format the output as {'story':'<Story contents here>','translation':"\
+    "'<Translation contents here>'}."
+    print(query)
 
 def index():
     wp = jp.WebPage()
