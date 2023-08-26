@@ -1,4 +1,4 @@
-{'word':'a, an','pos':'indefinite, article','level':'A1'}
+{'word':'a','pos':'indefinite article','level':'A1'}
 {'word':'abandon','pos':'Verb','level':'B2'}
 {'word':'ability','pos':'Noun','level':'A2'}
 {'word':'able','pos':'Adjective.','level':'A2'}
@@ -99,6 +99,7 @@
 {'word':'ambitious','pos':'Adjective','level':'B1'}
 {'word':'among','pos':'prep.','level':'A2'}
 {'word':'amount','pos':'Noun, Verb','level':'A2, B2'}
+{'word':'an','pos':'indefinite article','level':'A1'}
 {'word':'analyse','pos':'Verb','level':'B1'}
 {'word':'analysis','pos':'Noun','level':'B1'}
 {'word':'ancient','pos':'Adjective','level':'A2'}
@@ -788,7 +789,6 @@
 {'word':'donate','pos':'Verb','level':'B1'}
 {'word':'door','pos':'Noun','level':'A1'}
 {'word':'double','pos':'Adjective. det. pron. v., Adverb.','level':'A2, B1'}
-{'word':' ','pos':' ','level':' '}
 {'word':'doubt','pos':'Noun, Verb','level':'B1'}
 {'word':'down','pos':'Adverb. prep.','level':'A1'}
 {'word':'download','pos':'Verb, Noun','level':'A2'}
